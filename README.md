@@ -37,8 +37,3 @@ During the workshop, we’ll be building a **simple portfolio website** that dem
 - A **contact section** with links or a button  
 
 The final result will be a **clean, minimal, and elegant portfolio** that you can customize for your own use!
-
----
-
-## 📂 Repository Structure
-
