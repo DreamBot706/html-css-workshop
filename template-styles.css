@@ -1,0 +1,78 @@
+:root {
+  --soft-blue: hsl(252deg 66% 62%);
+  --soft-orange: hsl(28deg 89% 67%);
+  --very-soft-red: hsl(0deg 79% 79%);
+  --soft-red: hsl(7deg 77% 66%);
+  --moderate-cyan: hsl(172deg 46% 57%);
+  --very-dark-magenta: hsl(314deg 46% 23%);
+  --very-dark-gray: hsl(0deg 0% 1%);
+  --dark-grayish-orange: hsl(30deg 5% 45%);
+  --very-pale-orange: hsl(28deg 100% 97%);
+  --white: hsl(0deg 0% 100%);
+}
+
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--very-pale-orange);
+  color: var(--very-dark-gray);
+  font-weight: 500; /* default font weight is 400 */
+  font-size: 1.25rem;
+  padding: 1.8rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* ===== Hero Section ===== */
+.hero{
+    margin-top: 4.4rem;
+}
+
+/* ===== Skills Section ===== */
+.skills {
+    margin-top: 5rem;
+    list-style: none;
+}
+
+/* ===== Profile Section ===== */
+.profile {
+    margin-top: 6rem;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+/* ===== Work Section ===== */
+.work {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.work-card {
+    font-weight: 700;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    font-size: 0.95rem;
+}
+.footer-social a {
+    margin: 0 0.5rem;
+}
+.footer-contact a {
+    color: #2d2d2d;
+}

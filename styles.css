@@ -1,11 +1,30 @@
+/* ===== Color Variables ===== */
+:root {
+  --soft-blue: hsl(252deg 66% 62%);
+  --soft-orange: hsl(28deg 89% 67%);
+  --very-soft-red: hsl(0deg 79% 79%);
+  --soft-red: hsl(7deg 77% 66%);
+  --moderate-cyan: hsl(172deg 46% 57%);
+  --very-dark-magenta: hsl(314deg 46% 23%);
+  --very-dark-gray: hsl(0deg 0% 1%);
+  --dark-grayish-orange: hsl(30deg 5% 45%);
+  --very-pale-orange: hsl(28deg 100% 97%);
+  --white: hsl(0deg 0% 100%);
+}
+
 /* ===== Global Styles ===== */
-body {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 500; /* default font weight is 400 */
-    font-size: 1.25rem;
-    background-color: hsl(28deg 100% 97%);
-    color: hsl(0deg 0% 1%);
+    font-size: 1.25rem; /* browser dependent most browsers use 1rem = 16px */
+    background-color: var(--very-pale-orange);
+    color: var(--very-dark-gray);
     padding: 1.8rem 0;
 }
 
@@ -20,7 +39,7 @@ ul {
 
 h1 {
     font-size: 3.2rem;
-    margin: 1rem auto;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -42,15 +61,14 @@ li p {
 /* ===== Layout Containers ===== */
 .container {
     margin: 0 auto;
+    padding: 0 1.5rem;
     max-width: 70rem;
 }
 
-body header {
+header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
 }
 
 /* ===== Hero Section ===== */
@@ -67,8 +85,8 @@ body header {
 
 /* ===== Buttons ===== */
 .view-resume {
-    background-color: hsl(0deg 0% 1%);
-    color: hsl(28deg 100% 97%);
+    background-color: var(--very-dark-gray);
+    color: var(--very-pale-orange);
     border-radius: 2rem;
     padding: 0.875rem 2.8125rem;
     font-size: 1rem;
@@ -80,15 +98,17 @@ body header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 .profile > div {
     margin-left: 6rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
     max-width: 30rem;
 }
 
 .profile p {
+    margin-top: 2rem;
     font-weight: 400;
 }
 
@@ -115,10 +135,6 @@ body header {
     background-position: center;
     border-radius: 1rem;
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .work-title {
@@ -128,7 +144,6 @@ body header {
     border-radius: 0.5rem;
     font-size: 1.25rem;
     margin: 1rem;
-    z-index: 2;
 }
 
 /* ===== Skills Section ===== */
@@ -160,37 +175,37 @@ body header {
 
 /* Skill item backgrounds and positions */
 #main li:first-child {
-    background-color: hsl(252deg 66% 62%);
-    background-image: url("/icons/graphic-design.svg");
+    background-color: var(--soft-blue);
+    background-image: url("/skill-icons/web-development.svg");
     grid-row: span 2;
     grid-column: span 2;
 }
 
 #main li:nth-child(2) {
-    background-color: hsl(28deg 89% 67%);
-    background-image: url('/icons/ui-ux.svg');
+    background-color: var(--soft-orange);
+    background-image: url('/skill-icons/git.svg');
 }
 
 #main li:nth-child(3) {
-    background-color: hsl(0deg 79% 79%);
-    background-image: url('/icons/apps.svg');
+    background-color: var(--very-soft-red);
+    background-image: url('/skill-icons/mysql.svg');
 }
 
 #main li:nth-child(4) {
-    background-color: hsl(172deg 46% 57%);
-    background-image: url('/icons/photography.svg');
+    background-color: var(--moderate-cyan);
+    background-image: url('/skill-icons/data-analytics.svg');
     grid-column: span 2;
 }
 
 #main li:nth-child(5) {
-    background-color: hsl(314deg 46% 23%);
-    background-image: url('/icons/motion-graphics.svg');
+    background-color: var(--soft-red);
+    background-image: url('/skill-icons/devops.svg');
     grid-column: span 2;
 }
 
 #main li:last-child {
-    background-color: hsl(7deg 77% 66%);
-    background-image: url('/icons/illustrations.svg');
+    background-color: var(--very-dark-magenta);
+    background-image: url('/skill-icons/latex.svg');
     grid-column: span 2;
 }
 
