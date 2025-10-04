@@ -41,4 +41,4 @@ The final result will be a **clean, minimal, and elegant portfolio** that you ca
 ---
 
 ## 🌐 Live Demo
-Check out the portfolio here: [**Live Website**](https://yourusername.github.io/your-repo-name/)
+Check out the portfolio here: [**Live Website**]([https://yourusername.github.io/your-repo-name/](https://dreambot706.github.io/html-css-workshop/))
