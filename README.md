@@ -31,9 +31,14 @@ By the end of the workshop, you will be able to:
 During the workshop, we’ll be building a **simple portfolio website** that demonstrates:
 
 - A **navigation bar**  
-- A **hero section** with a headline & call-to-action  
-- An **about section**  
-- A **projects showcase** using grid/flexbox  
-- A **contact section** with links or a button  
+- A **hero section** with a headline & view resume button 
+- An **about section** for displaying your information
+- A **projects showcase** using flexbox  
+- A **contact section** at the bottom with links  
 
 The final result will be a **clean, minimal, and elegant portfolio** that you can customize for your own use!
+
+---
+
+## 🌐 Live Demo
+Check out the portfolio here: [**Live Website**](https://dreambot706.github.io/html-css-workshop/)
