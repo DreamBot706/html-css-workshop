@@ -93,6 +93,7 @@ footer {
 
 .skills li {
     background-repeat: no-repeat;
+    background-position: top 1.5rem right 1.5rem;
     padding: 1.2rem;
     border-radius: 0.5rem;
     font-size: 1.5rem;
