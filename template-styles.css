@@ -88,11 +88,13 @@ footer {
 /* ===== Skills Section ===== */
 .skills {
     margin-top: 5rem;
+    color: white;
     list-style: none;
 }
 
 .skills li {
     background-repeat: no-repeat;
+    background-position: top 1.5rem right 1.5rem;
     padding: 1.2rem;
     border-radius: 0.5rem;
     font-size: 1.5rem;
@@ -102,8 +104,6 @@ footer {
 .skills li:first-child {
     background-color: var(--soft-blue);
     background-image: url("./skill-icons/web-development.svg");
-    grid-row: span 2;
-    grid-column: span 2;
 }
 
 .skills li:nth-child(2) {
@@ -119,17 +119,14 @@ footer {
 .skills li:nth-child(4) {
     background-color: var(--moderate-cyan);
     background-image: url('./skill-icons/data-analytics.svg');
-    grid-column: span 2;
 }
 
 .skills li:nth-child(5) {
     background-color: var(--soft-red);
     background-image: url('./skill-icons/devops.svg');
-    grid-column: span 2;
 }
 
 .skills li:last-child {
     background-color: var(--very-dark-magenta);
     background-image: url('./skill-icons/latex.svg');
-    grid-column: span 2;
 }
