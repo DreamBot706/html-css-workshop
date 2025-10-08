@@ -18,7 +18,7 @@ body {
   color: var(--very-dark-gray);
   font-weight: 500; /* default font weight is 400 */
   font-size: 1.25rem;
-  padding: 0 1.8rem;
+  padding: 1.8rem 0;
 }
 
 a {
@@ -47,6 +47,10 @@ h2 {
 
 .profile img {
     border-radius: 50%;
+}
+
+.profile p {
+    margin-top: 2rem;
 }
 
 /* ===== Work Section ===== */
